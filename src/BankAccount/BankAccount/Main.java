@@ -11,5 +11,6 @@ public class Main {
         client.addBankAccount(bankAccount2);
         client.getSavingAccount();
         client.removeAccountByType("SPENDING");
+        System.out.println(client.toString());
     }
 }
